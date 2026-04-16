@@ -14,6 +14,7 @@
 1. Динамика выручки по классам обслуживания
 Позволяет отследить ежедневную выручку в разрезе Economy, Comfort и Business классов для анализа сезонности и спроса.
 <img width="1280" height="776" alt="image" src="https://github.com/user-attachments/assets/fc62ef51-5d65-4233-bce5-e27e4c2c34d3" />
+
 ```sql
 select 
     fare_conditions, 
