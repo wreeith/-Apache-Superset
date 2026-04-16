@@ -42,6 +42,7 @@ group by 1, 2;
 3. Средняя стоимость билета в зависимости от модели самолета
 Позволяет оценить ценовую политику компании для различных типов воздушных судов.
 <img width="1280" height="568" alt="image" src="https://github.com/user-attachments/assets/39ef896f-c97b-4e27-8160-0a182f9cd284" />
+
 ```sql
 SELECT 
     model['ru'] AS model,
@@ -56,6 +57,7 @@ ORDER BY avg_price DESC;
 4. Детальный расчет средней цены (округленный)
 Используется для точных отчетов и сверки финансовых показателей.
 <img width="1280" height="553" alt="image" src="https://github.com/user-attachments/assets/e568a885-637b-4b2f-a158-22274c735090" />
+
 ```sql
 select 
     model['ru'] as model, 
